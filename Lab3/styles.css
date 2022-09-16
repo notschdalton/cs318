@@ -1,0 +1,17 @@
+h1{color:darkslategray}
+h2{color:darkgoldenrod}
+h3{background-color: darkolivegreen;}
+a{background-color: rgb(214, 210, 210);}
+h2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+ul{font-family: 'Courier New', Courier, monospace;}
+h1{font-size: 3rem;}
+a{font-size: 2rem;}
+ol{font-weight: 900;}
+p{font-weight: 600;}
+h2{text-align: center;}
+h3{text-align: center;}
+img{text-align: center;}
+p{margin:1rem}
+h1{margin:4rem}
+ul{padding:3rem}
+ol{padding:2rem}
