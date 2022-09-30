@@ -38,6 +38,21 @@ header{flex-wrap: nowrap;}
 header{justify-content:space-between}
 header{align-items:flex-end}
 .about-me{display: flex;}
-
+.about-me h2{flex-basis: 40%;}
+.about-me h2{background-position: center;}
+.about-me div{flex-basis: 50%;}
+.about-me div{margin-left: 2rem}
+h2{padding-left: 4rem}
+.gallery{display: flex;}
+.gallery{flex-flow: column wrap;}
+.gallery{max-height: 78rem;}
+.gallery h2{margin: 0.5rem;}
+.gallery img{width: 32%;}
+.gallery img{margin: 0.5em;}
 }
-
+@media (min-width:1500px){
+.gallery{max-height: 120rem;}
+}
+@media (min-width:2300px) {
+.gallery{max-height: 150rem;}
+}
