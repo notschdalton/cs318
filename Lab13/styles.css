@@ -34,12 +34,23 @@ nav>a{
     display: inline-block;
     margin: 1rem 2rem;
     position: relative;
+    transition: opacity .2s ease-in-out, left .5s ease-in-out;
 }
 main{
     padding: 1rem;
 }
 section{
     padding: 0 1rem;
+    padding-left: 5rem;
+    position: relative;
+}
+section:before{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    transform: scale(.07);
+    left: 0;
+    top: 0;
 }
 .title{
     margin: 0;
@@ -78,21 +89,8 @@ section{
         text-align: right;
         margin: 2rem;
         left: -10rem;
-        transition: opacity .2s ease-in-out, left .5s ease-in-out;
     }
     .sidenav>a:hover{
         left: 0;
-    }
-    section{
-        padding-left: 5rem;
-        position: relative;
-    }
-    section:before{
-        position: absolute;
-        width: 3rem;
-        height: 3rem;
-        transform: scale(.07);
-        left: 0;
-        top: 0;
     }
 }
