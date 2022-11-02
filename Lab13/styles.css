@@ -19,6 +19,9 @@ nav>a{
     font-weight: 800;
     display: inline-block;
     margin: 1rem 1rem 1rem 0;
+    transition-property: opacity;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
 }
 .sidenav{
     background-color: #5c765a;
@@ -29,7 +32,8 @@ nav>a{
     color: #0f0f0f;
     padding: .5rem 1rem;
     display: inline-block;
-    margin: .5rem .5rem 0 0;
+    margin: 1rem 2rem;
+    position: relative;
 }
 main{
     padding: 1rem;
@@ -41,6 +45,20 @@ section{
     margin: 0;
     padding: 2rem 1rem;
     background-color: #2e0105;
+}
+.sidenav>a:before, .sidenav>a:after{
+    position: absolute;
+    width: 1.7rem;
+    height: 2.5rem;
+    top: -.6rem;
+}
+.sidenav>a:before{
+    content:url(images/scroll-left.svg);
+    left: -1.6rem;
+}
+.sidenav>a:after{
+    content: url(images/scroll-right.svg);
+    right: -1.6rem;
 }
 @media (min-width:1100px){
     body{
@@ -58,5 +76,23 @@ section{
     .sidenav>a{
         display: block;
         text-align: right;
+        margin: 2rem;
+        left: -10rem;
+        transition: opacity .2s ease-in-out, left .5s ease-in-out;
+    }
+    .sidenav>a:hover{
+        left: 0;
+    }
+    section{
+        padding-left: 5rem;
+        position: relative;
+    }
+    section:before{
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        transform: scale(.07);
+        left: 0;
+        top: 0;
     }
 }
