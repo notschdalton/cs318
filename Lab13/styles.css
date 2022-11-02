@@ -48,7 +48,6 @@ section:before{
     position: absolute;
     width: 3rem;
     height: 3rem;
-    transform: scale(.07);
     left: 0;
     top: 0;
 }
@@ -71,6 +70,54 @@ section:before{
     content: url(images/scroll-right.svg);
     right: -1.6rem;
 }
+#alfheim:before{
+content: url(images/alfheim.svg);
+}
+
+#asgard:before{
+    content: url(images/asgard.svg);
+    }
+#baldr:before{
+        content: url(images/baldr.svg);
+        }
+
+#freyja:before{
+            content: url(images/freyja.svg);
+            }
+
+#freyr:before{
+                content: url(images/freyr.svg);
+                }
+
+#frigg:before{
+                    content: url(images/frigg.svg);
+                    }
+
+#heimdallr:before{
+                        content: url(images/heimdallr.svg);
+                        }
+#jotunheimr:before{
+                            content: url(images/jotunheimr.svg);
+
+                            }
+#loki:before{
+                                content: url(images/loki.svg);
+                                }
+
+#midgard:before{content: url(images/midgard.svg);}
+#muspelheim:before{content: url(images/muspelheim.svg);}
+#nidavellir:before{content: url(images/nidavellir.svg);}
+#odin:before{content: url(images/odin.svg);}
+#ragnarok:before{content: url(images/ragnarok.svg);}
+#svartalfar:before{content: url(images/svartalfar.svg);}
+#thor:before{content: url(images/thor.svg);}
+#valhalla:before{content: url(images/valhalla.svg);}
+#vanaheimr:before{content: url(images/vanaheimr.svg);}
+#yggdrasil:before{content: url(images/yggdrasil.svg);}
+
+
+
+
 @media (min-width:1100px){
     body{
         display: grid;
