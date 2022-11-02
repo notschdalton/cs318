@@ -39,6 +39,8 @@ width: calc(100% - 1rem);
 border: 3px solid yellowgreen;
 padding: .5rem;
 border-radius: .25rem;
+
+/*The next three properties should be on input:focus[type=text], input:focus[type=number], etc...*/
 background-color: black;
 color: white;
 outline: none;
