@@ -39,12 +39,15 @@ width: calc(100% - 1rem);
 border: 3px solid yellowgreen;
 padding: .5rem;
 border-radius: .25rem;
-
+}
 /*The next three properties should be on input:focus[type=text], input:focus[type=number], etc...*/
+
+input:focus[type=text], input:focus[type=email], input:focus[type=number], input:focus[type=email], input:focus[type=date], input:focus[type=color]{
 background-color: black;
 color: white;
 outline: none;
 }
+
 input[type=color]{
     width: 4rem;
     height: 4rem;
