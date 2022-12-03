@@ -206,7 +206,7 @@ footer{
         Something here
     }
     .routes{
-        display: grid;
+        display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-columns: 25px auto
         grid-gap: 1rem 
