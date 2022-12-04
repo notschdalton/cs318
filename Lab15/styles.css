@@ -28,9 +28,9 @@ body{background-color: rgb(9, 2, 29);
     .planet{animation: rise 10s ease-in 1;}
     @keyframes rise {
     from{bottom: 0;
-    transform: rotate(0 scale 1);}/*Need a parentheses after the 0 and before the 1.*/
+    transform: rotate(0)scale(1);}
     to{bottom: 75%;
-    transform: rotate(180deg scale 2);}/*Need a parentheses after deg and before the 2.*/
+    transform: rotate(180deg)scale(2);}
     }
     .planet{animation-fill-mode: forwards;
     left: 30%;}
@@ -50,7 +50,7 @@ body{background-color: rgb(9, 2, 29);
     animation-direction: alternate;
     animation-fill-mode: forwards;}
     @keyframes drive {
-        from{left: .5;}/*need a unit*/
+        from{left: .5rem;}
         to{left: 90%;}
     }
     .pug{

@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: coral;
+    overflow: hidden;
+}
+.square{
+    background-color: white;
+    height:5rem;
+    width:5rem;
+    position: absolute;
+    left:48%;
+    top:48%;
+}
+.square{animation: drive;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;}
+    @keyframes rotate {
+        from{left: 0deg}
+        to{left: 360deg;}
+    }
