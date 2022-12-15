@@ -56,7 +56,7 @@ width: 150%;
 top: 0;
 z-index: -1;}
 .call-to-action{padding: 6rem 1rem 3rem;}
-call-to-action h2{font-size: 3rem;}
+.call-to-action h2{font-size: 3rem;}
 .button, input[type=submit]{
     padding: 1rem;
     background-color: #00e3c8;

@@ -12,30 +12,32 @@
     <div class="parallax">
         <img src="images/grindelwald.jpeg" alt="grindelwald">
     </div>
-    <div class="overlay">
+    <div class="overlay"><!--Inside the quotes add "toggle-nav"-->
         <header>
-    </div>
-            <div class="hamburger">
+    </div><!--Move this to before the <header>-->
+            <div class="hamburger"><!--add onclick="toggleNav()" after the class-->
                 <hr>
                 <hr> 
                 <hr>
-                <nav>
-                    <a href="About" href="About">About</a>
-                    <a href="Gallery" href="Gallery">Gallery</a>
-                    <a href="Climb" href="Climb">Climb</a>
-                    <a href="Contact" href="contact">Contact</a>
+                <nav><!--Add a class="toggle-nav"-->
+                    <a href="About" href="About">About</a><!--Delete the second href. On the first one make it all lower case and add a # to the front of the word-->
+                    <a href="Gallery" href="Gallery">Gallery</a><!--Delete the second href. On the first one make it all lower case and add a # to the front of the word-->
+                    <a href="Climb" href="Climb">Climb</a><!--Delete the second href. On the first one make it all lower case and add a # to the front of the word-->
+                    <a href="Contact" href="contact">Contact</a><!--Delete the second href. On the first one make it all lower case and add a # to the front of the word-->
                 </nav>
-            </div>
+            </div><!--Move this to before the <nav>-->
     <h1>
         Eiger
     </h1>
         <div class="social">
-            <a>
+            <a><!--Delete-->
+                <!--Add an <a> around each image below, 3 total. Then move the href from the img to the corresponding <a>-->
                 <img src="images/facebook.svg" alt="Facebook" href="https://fb.com">
                 <img src="images/instagram.svg" alt="Instagram" href="https://www.instagram.com/">
                 <img src="images/pinterest.svg" alt="Pinterest" href="https://www.pinterest.com/"> 
-            </a>
+            </a><!--Delete-->
         </div>
+        <!--Add closing header here-->
     <main>
         <section class="call-to-action">
             <h2>The Eiger</h2>
@@ -62,21 +64,21 @@
         <section class="routes" id="routes">
             <h3>The Routes</h3>
             
-            <div class="button" content="climbit" href="">
+            <div class="button" content="climbit" href=""><!--Delete the class, content, and href-->
                 <img src="images/alpine.jpeg" alt="alpine">
                 <h4> West Flank & West Ridge</h4>
                 <h5>AD (G4) with III-, 1650m. 6 hours in ascent, 3 to 4hours in descent.</h5>
                 <p>The West Flank & West Ridge is the easiest route to the summit and the usual descent route for most parties. Route finding on the lower part of the flank can be very difficult, especially in descent if one has not gone up this way initially. Though not that technically difficult it is a big high alpine tour that can be especially serious in poor weather or conditions. Recommended equipment is an ice axe, crampons, 2 ice screws, 2 pitons (or nuts / cams) and 4 to 5 carabiners. There are fixed iron rods on the upper part of the route. Charles Barrington with Christian Almer and Peter Bohren, , made the first ascent of the West Flank & West Ridge on 11 August 1858 (also the first ascent of the peak).</p>
-              
+               <!--At the end of each div there should be an <a href="" class="button">Climb It</a>-->
             </div>
-            <div class="button" content="climbit" href="">
+            <div class="button" content="climbit" href=""><!--Delete the class, content, and href-->
                 <img src="images/eiger.jpeg" alt="eiger">
                 <h4>North Face</h4>
                 <h5>1938 Route: ED2 (G14) V-, A0, 60Â°, 1800m, one to three or more days.</h5>
                 <p>Since the first ascent of the face in 1938 there have been numerous new routes and variations on the face including many that end on the West Ridge or NE Face and even several Sport Climbing routes low on the face (Eiger NF routes). Still, most climbers seem to be most familiar with and aspire to the original classic 1938 route. But, note that in recent years much of the snow and the ice has melted back so that late in the season the face is often almost bare.</p>
             </div>
            
-            <div class="button" content="climbit" href="">
+            <div class="button" content="climbit" href=""><!--Delete the class, content, and href-->
                 <img src="images/jungfraujoch.jpeg" alt="jungfraujoch">
                 <h4>Mittellegi Ridge</h4>
                 <h5>D (G5) with IV & fixed ropes, 4 to 8 hours from Mittellegi Hut</h5>
@@ -100,7 +102,7 @@
     </main>
     <footer>
         <span>"Copyright <script>document.write(new Date().getFullYear());</script>"</span>
-        <div class="social">
+        <div class="social"><!--Copy the social div above after making corrections and replace this one.-->
             <a>
                 <img src="images/facebook.svg" alt="Facebook" href="https://fb.com">
                 <img src="images/instagram.svg" alt="Instagram" href="https://www.instagram.com/">
@@ -108,3 +110,4 @@
             </a>
         </div>
     </footer>
+    <!--Missing closing </body> and </html> -->
